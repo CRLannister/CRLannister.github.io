@@ -1,0 +1,213 @@
+
+
+body{
+	font: 15px/1.5 arial,helvetica,sans-serif;
+	@font-face{
+		font-family: "Princess Sofia";
+	}
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+}
+
+/*global*/
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.container button{
+	background-color: orange;
+	text-color: #ffffff;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+.dark{
+	padding:15px;
+	background:#35424a;
+	color:#ffffff;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+/*header*/
+header{
+	background:#35424a;
+	color:#ffffff;
+	padding-top:30px;
+	border-bottom:#e8491d 3px solid;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:16px;
+}
+
+header ul{
+	margin:0;
+    padding:0;
+	
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding h1{
+	margin:3px 10px 0 0px;
+	
+}
+
+
+
+header nav{
+	float:right;
+	margin:0 0 3px 0;
+} 
+
+header .highlight, header .current a{
+	color:#e8491d;
+	font-weight:bold;
+}
+
+header a:hover{
+	color:navy;
+	font-weight:bold;
+}
+
+header nav{
+   margin-bottom: 30px;	
+}
+p{
+	font-family: Princess Sofia;
+}
+
+/*showcase*/
+#showcase{
+	min-height:400px;
+	background:url('./b.png') -10px 10px;
+	background-size: cover;
+	text-align:center;
+	color:red;
+}
+
+#newsletter h1{
+	float:left;
+}
+
+#newsletter form{
+	float:right;
+	margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+	padding:4px;
+	height:25px;
+	width:250px;
+}
+
+/*boxes*/
+#boxes{
+	margin-top:"20px";
+	
+}
+
+#boxes .box{
+	float:left;
+	text-align:center;
+	width:30%;
+	padding:10px;
+}
+
+#boxes .box img{
+	width:90px;
+}
+
+/*sidebar for making columns of paragraph */
+aside#sidebar{
+	float:right;
+	width:30%;
+	margin-top:10px;
+}
+
+aside#sidebar.quote input, aside#sidebar.quote textarea{
+	width=90%;
+	height: 500px;
+	padding:5px;
+}
+
+/*main-col */
+article#main-col{
+	float:left;
+	width:65%;
+}
+
+#tesai{
+	border-color:red;
+	size:3px;
+	margin: 0 0 0 0;   
+}
+
+#butt .ytr h1{
+	text-align: center;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	 font-size: 40px;
+	padding:0;
+	margin-bottom: -10px;
+	color:blue;
+}
+
+/*services */
+ul#services li{
+	list-style: none;
+	padding:20px;
+	border:#cccccc solid 1px;
+	margin-bottom: 5px;
+	background:#e6e6e6e;
+}
+
+body.rew{
+	background-color: white;
+}
+
+footer{
+	padding:20px;
+	margin-top: 20px;
+	color:#ffffff;
+	background-color: #e8491d;
+	text-align: center;
+}
+
+/*Media Queries */
+@media(max-width: 768px){
+	header #branding,
+	header nav, header nav li,#newsletter h1, #newsletter form,#boxes .box,article#main-col,aside#sidebar{
+		float:none;
+		text-align: center;
+		width:100%;
+	}
+	header{
+		padding bottom:20px;
+	}
+	showcase h1{
+		margin-top: 40px;
+	}
+	#newsletter button,.quote button{
+		display:block;
+		width:100%;
+	}
+	#newsletter form input[type="email"]{
+		width:100%;
+		margin-bottom: 5px;
+	}
+}
+
