@@ -4,4 +4,4 @@
                window.location="got.html";
             }
             
-                        setTimeout('Redirect()', 5000);
+                        setTimeout('Redirect()', 10000);
