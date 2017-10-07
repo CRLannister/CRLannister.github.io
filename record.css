@@ -1,0 +1,77 @@
+.container-fluid{
+    background: -webkit-linear-gradient(black,grey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow, green); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black,grey); /* Standard syntax (must be last) */
+}
+
+body{
+	/*background-color : black;
+	 background: #ffffff url("note.png") no-repeat right top;
+	background-image : url("rust.jpeg");
+	background-repeat : no-repeat;
+	background-position : center;
+	/*padding-top : 290px; */
+	 margin:0px; 
+  font-size:16px; 
+  font-family: 'Marcellus SC', serif; 
+  background-color:#111; 
+  color:#aaa; 
+}
+p{
+	/*padding-top : -350px;
+	font-weight : bold;
+	color : yellow;
+	text-align :center;*/
+}
+
+#uoy{
+	padding-bottom: 10px;
+	padding-top : 10px;
+	font-size: 24px;
+}
+
+.img-responsive center-block {
+	width : 800px;
+}
+
+#quote{ 
+height: 300px;
+width : 800px;
+  /*display:none; */
+  background-image:url("rust.jpg");
+   no-repeat center center fixed;
+align: center;   
+        -webkit-background-size: cover; 
+        -moz-background-size: cover; 
+        -o-background-size: cover; 
+        background-size: cover; 
+  color:black; 
+  font-size:1.5em; 
+  padding-top:8%; 
+  padding-bottom:3%; 
+  border-radius:2px; 
+  box-shadow: 3px 3px 5px rgba(105,105,105,0.6); 
+  
+} 
+#buttonGroup{ 
+  margin-top:3%; 
+  margin-bottom :5px;
+} 
+
+.btn-default{ 
+  font-weight:bold; 
+  background-color:#ccc; 
+} 
+
+footer a:link{ 
+  color:#bf9b30; 
+} 
+footer a:visited{ 
+  color:#ffdc73; 
+} 
+footer a:hover{ 
+  color:#ffdc73; 
+  text-decoration:all; 
+  font-style:italic; 
+}
